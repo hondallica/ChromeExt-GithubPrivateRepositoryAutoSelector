@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Githubの新規リポジトリ作成時に自動でPrivateにする",
+    "version": "0.1",
+    "content_scripts": [{
+        "matches": ["https://github.com/new"],
+        "js": ["main.js"]
+    }]
+}

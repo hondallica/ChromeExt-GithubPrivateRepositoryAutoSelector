@@ -1,0 +1,1 @@
+document.getElementById("repository_public_false").checked = true;
